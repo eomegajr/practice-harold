@@ -1,6 +1,5 @@
 .app {
   max-width: 640px;
-  text-align: center;
 }
 
 h1 {
@@ -32,4 +31,18 @@ code {
   background: rgba(128, 128, 128, 0.2);
   padding: 0.15em 0.4em;
   border-radius: 4px;
+}
+
+/* contact us form design */
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  margin-top: 15px;
+  background-color: red;
+  border-color: green;
+  color: white;
+  font-weight: bold;
 }
